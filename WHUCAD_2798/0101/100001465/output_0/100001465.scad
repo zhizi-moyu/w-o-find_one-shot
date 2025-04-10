@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 shell_height = 40;
 shell_top_x = 30;
@@ -72,5 +72,4 @@ module full_model() {
 }
 
 full_model();
-```
 
