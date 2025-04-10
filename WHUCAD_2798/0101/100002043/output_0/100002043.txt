@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'cylindrical_ring': {
+        'num': '1',
+        'description': 'A single, solid cylindrical ring component resembling a washer. The component has a flat circular top and bottom surface, with a central circular hole running through its axis. The outer and inner edges are smooth and uniformly rounded. The height (thickness) of the ring is moderate, giving it a sturdy appearance. The outer diameter is significantly larger than the inner diameter, forming a thick annular shape. The material appears to be metallic or plastic with a matte finish, and the surface is smooth without any visible textures, threads, or fasteners. The symmetry and uniformity suggest it is a precision-machined part, likely used as a spacer, washer, or structural ring in mechanical assemblies.'
+    }
+}
+            modify component list:
+            component_list = {
+    'cylindrical_ring': {
+        'num': '1',
+        'description': 'A single, solid cylindrical ring component resembling a washer. The component has a flat circular top and bottom surface, with a central circular hole running through its axis. The outer and inner edges are smooth and uniformly rounded. The height (thickness) of the ring is moderate, giving it a sturdy appearance. The outer diameter is significantly larger than the inner diameter, forming a thick annular shape. The material appears to be metallic or plastic with a matte finish, and the surface is smooth without any visible textures, threads, or fasteners. The symmetry and uniformity suggest it is a precision-machined part, likely used as a spacer, washer, or structural ring in mechanical assemblies.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['cylindrical_ring'],
+        'description': 'This component is located in this layer alone, positioned centrally with a flat top and bottom surface. It is a standalone cylindrical ring with a central hole, likely used as a spacer or washer.'
+    }
+}
+        
