@@ -1,0 +1,34 @@
+
+
+            component_list = {
+    'square_base_shell': {
+        'num': '1',
+        'description': 'A hollow square box-like structure with four vertical walls and an open top. The base is flat and square in shape. The walls are of uniform thickness and height, forming a rectangular prism with a hollow interior. The interior is designed to house an internal component. The outer surface is smooth and the corners are sharp, forming a clean 90-degree edge at each corner. The top is open, allowing visibility and access to the internal structure.'
+    },
+    'internal_triangular_ramp': {
+        'num': '1',
+        'description': 'A solid triangular wedge or ramp that fits snugly inside the square base shell. It starts from one corner of the base and slopes upward diagonally to the opposite edge, forming a right-angled triangular profile when viewed from the side. The ramp has a flat top surface that inclines at a consistent angle. The two vertical sides of the ramp are flush with the inner walls of the square base, and the hypotenuse forms the sloped surface. The ramp is integrated or placed inside the shell to create a sloped internal geometry.'
+    }
+}
+            modify component list:
+            component_list = {
+    'square_base_shell': {
+        'num': '1',
+        'description': 'A hollow square box-like structure with four vertical walls and an open top. The base is flat and square in shape. The walls are of uniform thickness and height, forming a rectangular prism with a hollow interior. The interior is designed to house an internal component. The outer surface is smooth and the corners are sharp, forming a clean 90-degree edge at each corner. The top is open, allowing visibility and access to the internal structure.'
+    },
+    'internal_triangular_ramp': {
+        'num': '1',
+        'description': 'A solid triangular wedge or ramp that fits snugly inside the square base shell. It starts from one corner of the base and slopes upward diagonally to the opposite edge, forming a right-angled triangular profile when viewed from the side. The ramp has a flat top surface that inclines at a consistent angle. The two vertical sides of the ramp are flush with the inner walls of the square base, and the hypotenuse forms the sloped surface. The ramp is integrated or placed inside the shell to create a sloped internal geometry.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['internal_triangular_ramp'],
+        'description': 'The internal triangular ramp is placed inside the square base shell, sloping upward from one corner to the opposite edge.'
+    },
+    'layer_2': {
+        'involved_components': ['square_base_shell'],
+        'description': 'The square base shell forms the outer structure and base of the model, enclosing the internal triangular ramp.'
+    }
+}
+        
