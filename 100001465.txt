@@ -1,0 +1,41 @@
+
+
+            component_list = {
+    'outer_rectangular_shell': {
+        'num': '1',
+        'description': 'A hollow, vertically-oriented rectangular prism forming the main body of the model. The shell has slightly tapered vertical walls, wider at the top and narrower at the bottom. The top and bottom edges are open, allowing for the attachment of flanges. The outer surface is smooth and uniform.'
+    },
+    'top_flange_frame': {
+        'num': '1',
+        'description': 'A rectangular flange that sits on the top edge of the outer shell. It has a flat, horizontal surface with a rectangular cutout in the center, matching the opening of the shell. The flange extends outward slightly beyond the shell’s perimeter, forming a lip or ledge. The corners are sharp and the surface is flush with the top of the shell.'
+    },
+    'bottom_flange_base': {
+        'num': '1',
+        'description': 'A base flange attached to the bottom of the outer shell. It mirrors the top flange in shape and size but is positioned at the bottom. It provides structural support and a stable base for the model. The flange extends outward from the shell and is flush with the bottom edge.'
+    },
+    'inner_slanted_wall_panel': {
+        'num': '1',
+        'description': 'An internal triangular or trapezoidal panel that spans diagonally from one side of the inner wall to the opposite bottom corner. It creates a slanted surface inside the hollow shell, likely for guiding or directing flow or objects. The panel is flat and smooth, and it is fixed securely to the inner walls.'
+    }
+}
+            modify component list:
+            component_list = {
+    'outer_rectangular_shell': {
+        'num': '1',
+        'description': 'A hollow, vertically-oriented rectangular prism forming the main body of the model. The shell has slightly tapered vertical walls, wider at the top and narrower at the bottom. The top and bottom edges are open, allowing for the attachment of flanges. The outer surface is smooth and uniform.'
+    },
+    'top_flange_frame': {
+        'num': '1',
+        'description': 'A rectangular flange that sits on the top edge of the outer shell. It has a flat, horizontal surface with a rectangular cutout in the center, matching the opening of the shell. The flange extends outward slightly beyond the shell’s perimeter, forming a lip or ledge. The corners are sharp and the surface is flush with the top of the shell.'
+    },
+    'bottom_flange_base': {
+        'num': '1',
+        'description': 'A base flange attached to the bottom of the outer shell. It mirrors the top flange in shape and size but is positioned at the bottom. It provides structural support and a stable base for the model. The flange extends outward from the shell and is flush with the bottom edge.'
+    },
+    'inner_slanted_wall_panel': {
+        'num': '1',
+        'description': 'An internal triangular or trapezoidal panel that spans diagonally from one side of the inner wall to the opposite bottom corner. It creates a slanted surface inside the hollow shell, likely for guiding or directing flow or objects. The panel is flat and smooth, and it is fixed securely to the inner walls.'
+    }
+}
+            None
+        
