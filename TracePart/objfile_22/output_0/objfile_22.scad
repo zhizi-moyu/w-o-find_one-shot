@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 $fn = 100;
 cap_d = 40;
@@ -104,5 +104,5 @@ module flexible_coupling() {
 
 // Render the full assembly
 flexible_coupling();
-```
+
 
