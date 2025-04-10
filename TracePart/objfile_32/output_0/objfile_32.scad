@@ -1,4 +1,4 @@
-```scad
+
 $fn = 100;
 
 // Parameters
@@ -69,5 +69,4 @@ module flexure_beam() {
 }
 
 coupling();
-```
 
