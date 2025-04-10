@@ -1,4 +1,4 @@
-```scad
+
 $fn = 100;
 
 // 1. Flanged Split Bushing
@@ -104,5 +104,5 @@ translate([0, 0, 0]) cylindrical_flanged_sleeve();
 translate([20, 0, 0]) conical_centered_disk();
 translate([40, 0, 0]) split_flanged_socket();
 translate([60, 0, 0]) dual_leg_flanged_insert();
-```
+
 
