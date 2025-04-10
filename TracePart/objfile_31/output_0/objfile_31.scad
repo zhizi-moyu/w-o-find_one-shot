@@ -1,4 +1,4 @@
-```scad
+
 $fn = 100; // Smoothness
 
 // Parameters
@@ -41,5 +41,5 @@ difference() {
                     cube([coupling_diameter, slot_width, slot_depth], center = false);
     }
 }
-```
+
 
