@@ -1,4 +1,4 @@
-```scad
+
 $fn = 100;
 
 // Parameters
@@ -91,5 +91,5 @@ module fastening_screws() {
 
 // Render the full assembly
 coupling_assembly();
-```
+
 
