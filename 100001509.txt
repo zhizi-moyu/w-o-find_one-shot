@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'flat_square_plate_with_center_hole': {
+        'num': '1',
+        'description': 'A single flat square plate with slightly rounded corners and a uniform thickness. The plate has a smooth surface and appears to be made of a solid material, possibly metal or plastic. At the center of the plate, there is a circular hole, which is cleanly cut and symmetrical. The edges of the plate are slightly beveled, giving it a refined finish. The hole is likely intended for mounting or fastening purposes. The plate is featureless aside from the central hole and a subtle recessed border near the edges, which may serve as a design or functional element for alignment or fitting.'
+    }
+}
+            modify component list:
+            component_list = {
+    'flat_square_plate_with_center_hole': {
+        'num': '1',
+        'description': 'A single flat square plate with slightly rounded corners and a uniform thickness. The plate has a smooth surface and appears to be made of a solid material, possibly metal or plastic. At the center of the plate, there is a circular hole, which is cleanly cut and symmetrical. The edges of the plate are slightly beveled, giving it a refined finish. The hole is likely intended for mounting or fastening purposes. The plate is featureless aside from the central hole and a subtle recessed border near the edges, which may serve as a design or functional element for alignment or fitting.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['flat_square_plate_with_center_hole'],
+        'description': 'This component is located in this layer alone. It is a flat square plate with a central hole, lying horizontally with no other components above or below it.'
+    }
+}
+        
