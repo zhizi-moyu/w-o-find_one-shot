@@ -1,4 +1,4 @@
-```scad
+
 $fn = 100; // Smoothness
 
 // Parameters
@@ -121,5 +121,5 @@ module hex_socket_head_screw() {
 
 // Render the model
 flexible_coupling();
-```
+
 
