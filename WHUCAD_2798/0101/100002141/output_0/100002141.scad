@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 bracket_thickness = 5;
 bracket_length = 40;
@@ -53,5 +53,5 @@ module rounded_slot(length, width, depth) {
 
 // Render the bracket
 l_bracket();
-```
+
  
