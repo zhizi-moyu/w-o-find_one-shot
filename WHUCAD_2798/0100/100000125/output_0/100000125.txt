@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'angled_mounting_bracket': {
+        'num': '1',
+        'description': 'A single-piece L-shaped bracket with a vertical and horizontal arm, featuring a cylindrical peg and a recessed slot.'
+    }
+}
+            modify component list:
+            component_list = {
+    'angled_mounting_bracket': {
+        'num': '1',
+        'description': 'A single-piece L-shaped bracket with a vertical and horizontal arm, featuring a cylindrical peg and a recessed slot.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['angled_mounting_bracket'],
+        'description': 'This is a single-piece L-shaped bracket with a vertical and horizontal arm. The horizontal arm contains a recessed slot on top and a cylindrical peg on the bottom.'
+    }
+}
+        
