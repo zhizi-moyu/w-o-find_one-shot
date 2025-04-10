@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 base_length = 60;
 base_width = 40;
@@ -101,5 +101,5 @@ module assembly() {
 
 // Render the full model
 assembly();
-```
+
 
