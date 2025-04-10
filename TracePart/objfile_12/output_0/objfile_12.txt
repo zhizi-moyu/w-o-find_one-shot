@@ -1,0 +1,54 @@
+
+
+            component_list = {
+    'cylindrical_body_with_ribs': {
+        'num': '1',
+        'description': 'A central cylindrical component with a smooth outer surface on one end and a series of evenly spaced horizontal ribs or fins on the other end. The ribbed section likely serves for heat dissipation or structural reinforcement. The body has a central axial bore and a radial hole for clamping. The rear end is flat and interfaces with the flanged end plate.'
+    },
+    'flanged_end_plate': {
+        'num': '1',
+        'description': 'A circular flange attached to one end of the cylindrical body. It has a flat face with a central hole and a ring of 8 evenly spaced countersunk holes for bolts. The flange is slightly thicker than the cylindrical wall and provides a mounting interface for the assembly.'
+    },
+    'hex_socket_head_screws': {
+        'num': '8',
+        'description': 'Standard hex socket head cap screws used to fasten the flanged end plate to the cylindrical body. Each screw is inserted into a countersunk hole on the flange and likely threads into the body or a backing component. The heads are slightly raised and hexagonal in shape.'
+    },
+    'split_clamp_ring': {
+        'num': '1',
+        'description': 'An integrated ring section at the opposite end of the flange, featuring a visible slit running axially through the cylindrical wall. This slit allows the ring to flex and clamp onto a shaft when a screw is tightened through the radial hole. The clamping mechanism is part of the cylindrical body and is used for securing the assembly onto a shaft or rod.'
+    }
+}
+            modify component list:
+            component_list = {
+    'cylindrical_body_with_ribs': {
+        'num': '1',
+        'description': 'A central cylindrical component with a smooth outer surface on one end and a series of evenly spaced horizontal ribs or fins on the other end. The ribbed section likely serves for heat dissipation or structural reinforcement. The body has a central axial bore and a radial hole for clamping. The rear end is flat and interfaces with the flanged end plate.'
+    },
+    'flanged_end_plate': {
+        'num': '1',
+        'description': 'A circular flange attached to one end of the cylindrical body. It has a flat face with a central hole and a ring of 8 evenly spaced countersunk holes for bolts. The flange is slightly thicker than the cylindrical wall and provides a mounting interface for the assembly.'
+    },
+    'hex_socket_head_screws': {
+        'num': '8',
+        'description': 'Standard hex socket head cap screws used to fasten the flanged end plate to the cylindrical body. Each screw is inserted into a countersunk hole on the flange and likely threads into the body or a backing component. The heads are slightly raised and hexagonal in shape.'
+    },
+    'split_clamp_ring': {
+        'num': '1',
+        'description': 'An integrated ring section at the opposite end of the flange, featuring a visible slit running axially through the cylindrical wall. This slit allows the ring to flex and clamp onto a shaft when a screw is tightened through the radial hole. The clamping mechanism is part of the cylindrical body and is used for securing the assembly onto a shaft or rod.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['split_clamp_ring'],
+        'description': 'The split clamp ring is located at the front end of the cylindrical body and is used to secure the assembly onto a shaft. It features a visible axial slit and a radial hole for clamping.'
+    },
+    'layer_2': {
+        'involved_components': ['cylindrical_body_with_ribs'],
+        'description': 'The cylindrical body with ribs forms the central structure of the assembly. It connects the split clamp ring at the front and the flanged end plate at the rear. The ribbed section provides structural reinforcement or heat dissipation.'
+    },
+    'layer_3': {
+        'involved_components': ['flanged_end_plate', 'hex_socket_head_screws'],
+        'description': 'The flanged end plate is mounted at the rear of the cylindrical body and is fastened using 8 hex socket head screws. The screws are inserted into countersunk holes on the flange and secure the plate to the body.'
+    }
+}
+        
