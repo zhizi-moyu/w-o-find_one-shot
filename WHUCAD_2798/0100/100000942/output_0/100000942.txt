@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'rectangular_mounting_block': {
+        'num': '1',
+        'description': 'A solid rectangular block with a smooth, uniform surface and rounded edges. The block is oriented horizontally and has two circular through-holes symmetrically placed near the shorter edges on one of the larger flat faces. The holes appear to be countersunk or chamfered slightly at the entry points, suggesting they are designed for mounting with screws or bolts. The block has a consistent thickness and appears to be made of a rigid material, possibly plastic or metal. The corners are slightly filleted, giving it a softened appearance. The overall shape is a flat cuboid, and the holes are aligned along the longer axis of the face.'
+    }
+}
+            modify component list:
+            component_list = {
+    'rectangular_mounting_block': {
+        'num': '1',
+        'description': 'A solid rectangular block with a smooth, uniform surface and rounded edges. The block is oriented horizontally and has two circular through-holes symmetrically placed near the shorter edges on one of the larger flat faces. The holes appear to be countersunk or chamfered slightly at the entry points, suggesting they are designed for mounting with screws or bolts. The block has a consistent thickness and appears to be made of a rigid material, possibly plastic or metal. The corners are slightly filleted, giving it a softened appearance. The overall shape is a flat cuboid, and the holes are aligned along the longer axis of the face.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['rectangular_mounting_block'],
+        'description': 'This component is located in this layer alone and is a horizontally oriented rectangular block with two circular through-holes on one of its larger flat faces.'
+    }
+}
+        
