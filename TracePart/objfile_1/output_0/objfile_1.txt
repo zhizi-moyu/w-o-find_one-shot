@@ -1,0 +1,50 @@
+
+
+            component_list = {
+    'outer_cylindrical_shell': {
+        'num': '1',
+        'description': 'A smooth, solid cylindrical shell with a uniform diameter and a flat circular face on both ends. The shell has a clean, machined finish and features a horizontal slit and a vertical cutout on one side, which allows for the insertion and movement of internal components. The shell appears to be the main housing structure, providing structural integrity and enclosing the internal mechanism.'
+    },
+    'inner_rotary_joint': {
+        'num': '1',
+        'description': 'A cylindrical component nested inside the outer shell, partially visible through the side cutout. It has a curved profile that matches the inner diameter of the outer shell. This part includes a protruding tab or interlocking feature that fits into the vertical cutout of the outer shell, allowing for rotational or sliding movement. The joint is likely responsible for transmitting torque or motion between connected parts.'
+    },
+    'locking_pin': {
+        'num': '1',
+        'description': 'A small cylindrical pin or interlock feature visible through the side slit of the outer shell. It appears to connect the inner rotary joint to the outer shell, preventing axial movement while allowing rotational motion. The pin is flush with the surface and may be press-fitted or inserted through a hole in the shell.'
+    },
+    'central_bore_ring': {
+        'num': '1',
+        'description': 'A ring-like component with a central bore, visible from the front and rear views of the model. The bore is circular and centered, likely used for alignment or to allow a shaft or rod to pass through. The ring is integrated into the inner rotary joint or may be a separate sleeve that fits concentrically within the assembly.'
+    }
+}
+            modify component list:
+            component_list = {
+    'outer_cylindrical_shell': {
+        'num': '1',
+        'description': 'A smooth, solid cylindrical shell with a uniform diameter and a flat circular face on both ends. The shell has a clean, machined finish and features a horizontal slit and a vertical cutout on one side, which allows for the insertion and movement of internal components. The shell appears to be the main housing structure, providing structural integrity and enclosing the internal mechanism.'
+    },
+    'inner_rotary_joint': {
+        'num': '1',
+        'description': 'A cylindrical component nested inside the outer shell, partially visible through the side cutout. It has a curved profile that matches the inner diameter of the outer shell. This part includes a protruding tab or interlocking feature that fits into the vertical cutout of the outer shell, allowing for rotational or sliding movement. The joint is likely responsible for transmitting torque or motion between connected parts. It also includes a central bore for alignment or shaft passage.'
+    },
+    'locking_pin': {
+        'num': '1',
+        'description': 'A small cylindrical pin or interlock feature visible through the side slit of the outer shell. It appears to connect the inner rotary joint to the outer shell, preventing axial movement while allowing rotational motion. The pin is flush with the surface and may be press-fitted or inserted through a hole in the shell.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['outer_cylindrical_shell'],
+        'description': 'This is the outermost component, forming the main housing structure. It encloses the internal components and features a horizontal slit and vertical cutout.'
+    },
+    'layer_2': {
+        'involved_components': ['inner_rotary_joint'],
+        'description': 'This component is nested inside the outer shell and partially visible through the vertical cutout. It is aligned concentrically and allows rotational movement.'
+    },
+    'layer_3': {
+        'involved_components': ['locking_pin'],
+        'description': 'This pin is inserted through the horizontal slit of the outer shell and connects the inner rotary joint to the shell, preventing axial movement while allowing rotation.'
+    }
+}
+        
