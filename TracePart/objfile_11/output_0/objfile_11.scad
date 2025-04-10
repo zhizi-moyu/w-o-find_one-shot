@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 piston_diameter = 40;
 piston_height = 50;
@@ -73,5 +73,5 @@ module retaining_ring(side = 1) {
 
 // Render the assembly
 piston_assembly();
-```
+
 
