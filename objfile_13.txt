@@ -1,0 +1,82 @@
+
+
+            component_list = {
+    'central_outer_cylinder': {
+        'num': '1',
+        'description': 'A thick, hollow cylindrical shell forming the main body of the assembly. It has a smooth outer surface and a recessed inner cavity that houses other components. The ends are open to allow insertion of internal parts. The cylinder has a uniform diameter and height, and it appears to be the structural core of the model.'
+    },
+    'inner_rotor_disk': {
+        'num': '2',
+        'description': 'Two identical cylindrical disks located at both ends of the central cavity. Each disk has a central hole and a slightly smaller diameter than the outer cylinder, allowing it to fit inside. The outer edge of each disk is smooth, and the face is flat. These disks likely serve as rotating or interfacing elements within the assembly.'
+    },
+    'gear_ring': {
+        'num': '1',
+        'description': 'A single internal ring with fine gear-like teeth along its inner circumference. It is embedded within the central_outer_cylinder and interfaces with the inner_rotor_disks. The gear teeth are evenly spaced and form a continuous ring, suggesting a function related to torque transmission or rotational alignment.'
+    },
+    'end_cap_disk': {
+        'num': '2',
+        'description': 'Flat circular disks with a central hole, mounted on the outer face of each inner_rotor_disk. These caps are slightly larger in diameter than the rotor disks and flush with the outer cylinder. They likely serve as covers or retainers, securing the internal components in place.'
+    },
+    'axial_spacer_ring': {
+        'num': '2',
+        'description': 'Thin, flat rings placed between the inner_rotor_disks and the gear_ring. These spacers maintain axial alignment and separation between components. They are slightly recessed and not easily visible from all angles, but their presence is inferred from the spacing and shadowing in the images.'
+    }
+}
+            modify component list:
+            component_list = {
+    'central_outer_cylinder': {
+        'num': '1',
+        'description': 'A thick, hollow cylindrical shell forming the main body of the assembly. It has a smooth outer surface and a recessed inner cavity that houses other components. The ends are open to allow insertion of internal parts. The cylinder has a uniform diameter and height, and it appears to be the structural core of the model.'
+    },
+    'inner_rotor_disk': {
+        'num': '2',
+        'description': 'Two identical cylindrical disks located at both ends of the central cavity. Each disk has a central hole and a slightly smaller diameter than the outer cylinder, allowing it to fit inside. The outer edge of each disk is smooth, and the face is flat. These disks likely serve as rotating or interfacing elements within the assembly.'
+    },
+    'gear_ring': {
+        'num': '1',
+        'description': 'A single internal ring with fine gear-like teeth along its inner circumference. It is embedded within the central_outer_cylinder and interfaces with the inner_rotor_disks. The gear teeth are evenly spaced and form a continuous ring, suggesting a function related to torque transmission or rotational alignment.'
+    },
+    'end_cap_disk': {
+        'num': '2',
+        'description': 'Flat circular disks with a central hole, mounted on the outer face of each inner_rotor_disk. These caps are slightly larger in diameter than the rotor disks and flush with the outer cylinder. They likely serve as covers or retainers, securing the internal components in place.'
+    },
+    'axial_spacer_ring': {
+        'num': '2',
+        'description': 'Thin, flat rings placed between the inner_rotor_disks and the gear_ring. These spacers maintain axial alignment and separation between components. They are slightly recessed and not easily visible from all angles, but their presence is inferred from the spacing and shadowing in the images.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['end_cap_disk'],
+        'description': 'One end_cap_disk is located at the topmost layer, covering the inner_rotor_disk and flush with the outer surface of the central_outer_cylinder.'
+    },
+    'layer_2': {
+        'involved_components': ['inner_rotor_disk'],
+        'description': 'An inner_rotor_disk is positioned just beneath the end_cap_disk, partially inserted into the central_outer_cylinder.'
+    },
+    'layer_3': {
+        'involved_components': ['axial_spacer_ring'],
+        'description': 'An axial_spacer_ring is placed between the inner_rotor_disk and the gear_ring, maintaining axial spacing.'
+    },
+    'layer_4': {
+        'involved_components': ['gear_ring'],
+        'description': 'The gear_ring is embedded within the central_outer_cylinder and interfaces with both inner_rotor_disks. It is centrally located and aligned with the internal cavity.'
+    },
+    'layer_5': {
+        'involved_components': ['axial_spacer_ring'],
+        'description': 'Another axial_spacer_ring is placed symmetrically on the opposite side of the gear_ring, maintaining spacing with the second inner_rotor_disk.'
+    },
+    'layer_6': {
+        'involved_components': ['inner_rotor_disk'],
+        'description': 'The second inner_rotor_disk is located beneath the axial_spacer_ring, symmetrically opposite to the first one.'
+    },
+    'layer_7': {
+        'involved_components': ['end_cap_disk'],
+        'description': 'The second end_cap_disk is mounted on the outer face of the second inner_rotor_disk, forming the bottommost layer and enclosing the assembly.'
+    },
+    'layer_8': {
+        'involved_components': ['central_outer_cylinder'],
+        'description': 'The central_outer_cylinder spans vertically across layers 2 to 6, housing the internal components and forming the structural core of the assembly.'
+    }
+}
+        
