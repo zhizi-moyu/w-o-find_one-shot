@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'hex_socket_cylindrical_plug': {
+        'num': '1',
+        'description': 'A single solid cylindrical plug with a hexagonal socket on the top face.'
+    }
+}
+            modify component list:
+            component_list = {
+    'hex_socket_cylindrical_plug': {
+        'num': '1',
+        'description': 'A single solid cylindrical plug with a hexagonal socket on the top face.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['hex_socket_cylindrical_plug'],
+        'description': 'This component is located in this layer alone as a single solid cylindrical plug with a hexagonal socket on the top face.'
+    }
+}
+        
