@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 bracket_thickness = 5;
 vertical_height = 40;
@@ -31,5 +31,5 @@ translate([0, 0, 0])
 translate([horizontal_length, 0, 0])
     mirror([1, 0, 0])
         L_bracket();
-```
+
 
