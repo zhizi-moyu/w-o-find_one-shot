@@ -1,0 +1,50 @@
+
+
+            component_list = {
+    'cylindrical end block': {
+        'num': '2',
+        'description': 'Solid cylindrical components located at both ends of the coupling. Each block has a flat circular face with two countersunk holes for clamping screws and a central bore for shaft insertion. The outer surface is smooth, and the inner face connects to the helical flexure beam. A slit runs from the bore to the outer edge to allow clamping action.'
+    },
+    'helical flexure beam': {
+        'num': '1',
+        'description': 'A single continuous cylindrical structure with a helical cut pattern that forms a flexible beam. The helical slots are evenly spaced and wrap around the cylinder, allowing torsional flexibility and slight axial or angular misalignment. The beam connects the two end blocks and is machined from the same material, forming a monolithic structure.'
+    },
+    'clamping screw': {
+        'num': '4',
+        'description': 'Standard hex socket head cap screws used to tighten the end blocks onto the shafts. Each screw is inserted into a countersunk hole on the flat face of the end blocks. The screws apply pressure across the slit in the end block to clamp onto the shaft.'
+    },
+    'threaded insert': {
+        'num': '2',
+        'description': 'Internal cylindrical bores within each end block, designed to receive a shaft. These inserts are not separate parts but are machined features that allow the shaft to be inserted and clamped securely. The slit and clamping screw work together to tighten the insert around the shaft.'
+    }
+}
+            modify component list:
+            component_list = {
+    'cylindrical end block': {
+        'num': '2',
+        'description': 'Solid cylindrical components located at both ends of the coupling. Each block has a flat circular face with two countersunk holes for clamping screws and a central bore for shaft insertion. The outer surface is smooth, and the inner face connects to the helical flexure beam. A slit runs from the bore to the outer edge to allow clamping action.'
+    },
+    'helical flexure beam': {
+        'num': '1',
+        'description': 'A single continuous cylindrical structure with a helical cut pattern that forms a flexible beam. The helical slots are evenly spaced and wrap around the cylinder, allowing torsional flexibility and slight axial or angular misalignment. The beam connects the two end blocks and is machined from the same material, forming a monolithic structure.'
+    },
+    'clamping screw': {
+        'num': '4',
+        'description': 'Standard hex socket head cap screws used to tighten the end blocks onto the shafts. Each screw is inserted into a countersunk hole on the flat face of the end blocks. The screws apply pressure across the slit in the end block to clamp onto the shaft.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['cylindrical end block', 'clamping screw'],
+        'description': 'One cylindrical end block is located at the top end of the model, with two clamping screws inserted into its countersunk holes.'
+    },
+    'layer_2': {
+        'involved_components': ['helical flexure beam'],
+        'description': 'The helical flexure beam is centrally located, connecting the two cylindrical end blocks. It features a continuous helical cut pattern for flexibility.'
+    },
+    'layer_3': {
+        'involved_components': ['cylindrical end block', 'clamping screw'],
+        'description': 'The second cylindrical end block is located at the bottom end of the model, also with two clamping screws inserted into its countersunk holes.'
+    }
+}
+        
