@@ -1,4 +1,5 @@
-```scad
+
+
 $fn = 100; // Smoothness
 
 // Parameters
@@ -104,5 +105,5 @@ module flexible_coupling() {
 
 // Render the full assembly
 flexible_coupling();
-```
+
 
