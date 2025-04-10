@@ -1,0 +1,30 @@
+
+
+            component_list = {
+    'cylindrical coupling body' : {
+        'num': '1',
+        'description': 'A single-piece cylindrical mechanical coupling body made of metal, designed to connect two rotating shafts. The body is symmetric along its central axis and features two axial bores on either end to accommodate shaft insertion. The outer surface has two recessed hexagonal holes for set screws, and the body is split axially on both ends with a narrow slit to allow clamping action when the screws are tightened. The slits extend partially along the length of the cylinder, providing flexibility for clamping. The ends of the cylinder are flat, and the overall surface is smooth with a matte metallic finish.'
+    },
+    'hex socket head screws' : {
+        'num': '2',
+        'description': 'Two identical hex socket head screws, each inserted into a recessed hole on the cylindrical coupling body. These screws are used to tighten the slits on the coupling body, clamping it securely onto the shafts. The heads are flush with the outer surface of the coupling and feature a hexagonal socket for Allen key operation. The screws are metallic and match the finish of the coupling body.'
+    }
+}
+            modify component list:
+            component_list = {
+    'cylindrical coupling body' : {
+        'num': '1',
+        'description': 'A single-piece cylindrical mechanical coupling body made of metal, designed to connect two rotating shafts. The body is symmetric along its central axis and features two axial bores on either end to accommodate shaft insertion. The outer surface has two recessed hexagonal holes for set screws, and the body is split axially on both ends with a narrow slit to allow clamping action when the screws are tightened. The slits extend partially along the length of the cylinder, providing flexibility for clamping. The ends of the cylinder are flat, and the overall surface is smooth with a matte metallic finish.'
+    },
+    'hex socket head screws' : {
+        'num': '2',
+        'description': 'Two identical hex socket head screws, each inserted into a recessed hole on the cylindrical coupling body. These screws are used to tighten the slits on the coupling body, clamping it securely onto the shafts. The heads are flush with the outer surface of the coupling and feature a hexagonal socket for Allen key operation. The screws are metallic and match the finish of the coupling body.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['cylindrical coupling body', 'hex socket head screws'],
+        'description': 'The cylindrical coupling body forms the main structure, with two hex socket head screws embedded into recessed holes on either end. The screws are used to clamp the slitted ends of the coupling body onto shafts, forming a single integrated mechanical unit.'
+    }
+}
+        
