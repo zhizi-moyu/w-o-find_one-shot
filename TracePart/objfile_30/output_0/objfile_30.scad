@@ -1,4 +1,4 @@
-```scad
+
 $fn = 100;
 
 // Parameters
@@ -115,5 +115,5 @@ module hex_bolt() {
 
 // Render the model
 flexible_coupling();
-```
+
 
