@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 outer_diameter = 60;
 outer_thickness = 50;
@@ -94,5 +94,5 @@ module assembly() {
 
 // Render the full model
 assembly();
-```
+
 
