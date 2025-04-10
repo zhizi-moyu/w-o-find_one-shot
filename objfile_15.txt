@@ -1,0 +1,70 @@
+
+
+            component_list = {
+    'central_hub_disk': {
+        'num': '1',
+        'description': 'A cylindrical central disk with a flat circular face and a central hole for shaft mounting. The disk has three evenly spaced radial cutouts or slots that allow the curved interlocking arms to fit in. The outer edge is smooth, and the cutouts are shaped to match the curvature of the arms. The central hole is circular and likely used for mounting on a shaft or axle.'
+    },
+    'curved_interlocking_arm': {
+        'num': '3',
+        'description': 'Each arm is a thick, curved segment with a semi-cylindrical profile. The arms are designed to interlock with the central hub disk and the side clamp plates. Each arm has two holes on its flat face for fasteners and a curved inner edge that matches the contour of the central hub. The outer surface is smooth and slightly convex, allowing for rotational or flexible movement.'
+    },
+    'side_clamp_plate': {
+        'num': '2',
+        'description': 'Flat, circular plates with three holes arranged in a triangular pattern to align with the holes in the curved arms. These plates are mounted on either side of the central hub and serve to clamp the arms in place. The outer edge is rounded, and the inner face is flat to press against the arms. The plates are slightly recessed to accommodate the heads of the fasteners.'
+    },
+    'hexagonal_fastener': {
+        'num': '6',
+        'description': 'Standard hexagonal-head bolts or screws used to secure the curved arms to the side clamp plates. Each fastener passes through a hole in the clamp plate and threads into the corresponding hole in the curved arm. The heads are flush with the outer surface of the clamp plates, indicating countersunk or recessed mounting.'
+    }
+}
+            modify component list:
+            component_list = {
+    'central_hub_disk': {
+        'num': '1',
+        'description': 'A cylindrical central disk with a flat circular face and a central hole for shaft mounting. The disk has three evenly spaced radial cutouts or slots that allow the curved interlocking arms to fit in. The outer edge is smooth, and the cutouts are shaped to match the curvature of the arms. The central hole is circular and likely used for mounting on a shaft or axle.'
+    },
+    'curved_interlocking_arm': {
+        'num': '3',
+        'description': 'Each arm is a thick, curved segment with a semi-cylindrical profile. The arms are designed to interlock with the central hub disk and the side clamp plates. Each arm has two holes on its flat face for fasteners and a curved inner edge that matches the contour of the central hub. The outer surface is smooth and slightly convex, allowing for rotational or flexible movement.'
+    },
+    'side_clamp_plate': {
+        'num': '2',
+        'description': 'Flat, circular plates with three holes arranged in a triangular pattern to align with the holes in the curved arms. These plates are mounted on either side of the central hub and serve to clamp the arms in place. The outer edge is rounded, and the inner face is flat to press against the arms. The plates are slightly recessed to accommodate the heads of the fasteners.'
+    },
+    'hexagonal_fastener': {
+        'num': '6',
+        'description': 'Standard hexagonal-head bolts or screws used to secure the curved arms to the side clamp plates. Each fastener passes through a hole in the clamp plate and threads into the corresponding hole in the curved arm. The heads are flush with the outer surface of the clamp plates, indicating countersunk or recessed mounting.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['side_clamp_plate'],
+        'description': 'One of the side clamp plates is positioned at the topmost layer, covering and securing the curved interlocking arms from above.'
+    },
+    'layer_2': {
+        'involved_components': ['hexagonal_fastener'],
+        'description': 'Hexagonal fasteners pass through the top side clamp plate and thread into the curved interlocking arms, securing them in place.'
+    },
+    'layer_3': {
+        'involved_components': ['curved_interlocking_arm'],
+        'description': 'Three curved interlocking arms are arranged radially around the central hub disk. They are clamped between the two side plates and fastened with hexagonal fasteners.'
+    },
+    'layer_4': {
+        'involved_components': ['central_hub_disk'],
+        'description': 'The central hub disk is located at the core of the assembly, interlocked with the curved arms via radial cutouts. It serves as the central structural element.'
+    },
+    'layer_5': {
+        'involved_components': ['curved_interlocking_arm'],
+        'description': 'The lower portions of the curved interlocking arms extend below the central hub disk, continuing the radial arrangement.'
+    },
+    'layer_6': {
+        'involved_components': ['hexagonal_fastener'],
+        'description': 'Hexagonal fasteners pass through the bottom side clamp plate and thread into the curved interlocking arms, securing them in place.'
+    },
+    'layer_7': {
+        'involved_components': ['side_clamp_plate'],
+        'description': 'The second side clamp plate is positioned at the bottommost layer, mirroring the top plate and completing the clamping of the arms.'
+    }
+}
+        
