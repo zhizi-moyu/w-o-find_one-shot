@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'L_bracket': {
+        'num': '2',
+        'description': 'This component is an L-shaped bracket with two perpendicular arms forming a 90-degree angle. One arm is vertically oriented, and the other is horizontally extended. The vertical arm has a rounded outer corner at the top, giving it a smooth edge. The horizontal arm is flat and rectangular, extending outward from the base of the vertical arm. The thickness of the bracket is uniform throughout, and the edges are slightly beveled. The overall appearance is sleek and minimalistic, with no visible holes or fasteners. The two identical brackets are likely designed to be assembled in a mirrored configuration, forming a V-like structure when viewed from the front.'
+    }
+}
+            modify component list:
+            component_list = {
+    'L_bracket': {
+        'num': '2',
+        'description': 'This component is an L-shaped bracket with two perpendicular arms forming a 90-degree angle. One arm is vertically oriented, and the other is horizontally extended. The vertical arm has a rounded outer corner at the top, giving it a smooth edge. The horizontal arm is flat and rectangular, extending outward from the base of the vertical arm. The thickness of the bracket is uniform throughout, and the edges are slightly beveled. The overall appearance is sleek and minimalistic, with no visible holes or fasteners. The two identical brackets are likely designed to be assembled in a mirrored configuration, forming a V-like structure when viewed from the front.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['L_bracket_1', 'L_bracket_2'],
+        'description': 'Two identical L-shaped brackets are arranged in a mirrored configuration, forming a V-like structure. Both components are positioned at the same vertical level.'
+    }
+}
+        
