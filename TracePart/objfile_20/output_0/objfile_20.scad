@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 shaft_d = 20;
 shaft_l = 80;
@@ -81,5 +81,5 @@ module flexible_coupling() {
 
 // Render the model
 flexible_coupling();
-```
+
 
