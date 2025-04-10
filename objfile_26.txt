@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'central_rotational_shaft': {
+        'num': '1',
+        'description': 'A single cylindrical shaft with symmetric features and detailed surface geometry.'
+    }
+}
+            modify component list:
+            component_list = {
+    'central_rotational_shaft': {
+        'num': '1',
+        'description': 'A single cylindrical shaft with symmetric features and detailed surface geometry.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['central_rotational_shaft'],
+        'description': 'This component is located in this layer alone and spans the entire vertical structure as a single cylindrical shaft.'
+    }
+}
+        
