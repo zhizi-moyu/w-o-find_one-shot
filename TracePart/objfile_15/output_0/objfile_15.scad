@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 hub_radius = 20;
 hub_thickness = 10;
@@ -112,5 +112,5 @@ module assembly() {
 
 // Render the full assembly
 assembly();
-```
+
 
