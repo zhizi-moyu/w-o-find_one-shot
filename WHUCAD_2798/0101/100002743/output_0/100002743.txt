@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'rounded_rectangular_block': {
+        'num': '1',
+        'description': 'A single solid block with a rectangular base and rounded top edges. The block has a flat bottom and vertical sides. The top face is flat but the top edges are smoothly filleted, giving a rounded appearance from all angles. The corners are uniformly rounded, and the overall shape resembles a softened rectangular cuboid. The material appears to be a uniform, smooth, matte white surface. There are no visible holes, fasteners, or separable parts. The geometry is symmetric along both the length and width axes, and the height is shorter than the length and width, giving it a squat, compact appearance.'
+    }
+}
+            modify component list:
+            component_list = {
+    'rounded_rectangular_block': {
+        'num': '1',
+        'description': 'A single solid block with a rectangular base and rounded top edges. The block has a flat bottom and vertical sides. The top face is flat but the top edges are smoothly filleted, giving a rounded appearance from all angles. The corners are uniformly rounded, and the overall shape resembles a softened rectangular cuboid. The material appears to be a uniform, smooth, matte white surface. There are no visible holes, fasteners, or separable parts. The geometry is symmetric along both the length and width axes, and the height is shorter than the length and width, giving it a squat, compact appearance.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['rounded_rectangular_block'],
+        'description': 'This component is located in this layer alone. It is a single solid block with a flat bottom and rounded top edges, forming a compact, symmetric structure.'
+    }
+}
+        
