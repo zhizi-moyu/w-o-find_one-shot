@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 cap_diameter = 30;
 cap_thickness = 8;
@@ -96,5 +96,5 @@ module flexible_coupling() {
 
 // Render the full model
 flexible_coupling();
-```
+
 
