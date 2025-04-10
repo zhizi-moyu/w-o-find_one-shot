@@ -1,0 +1,70 @@
+
+
+            component_list = {
+    'outer_cylindrical_end_cap': {
+        'num': '2',
+        'description': 'A solid cylindrical cap with a flat face and a central slot running across the diameter. Each cap has two small circular holes near the edge, likely for fastening screws. The inner side is recessed to accommodate the slotted disks and rods.'
+    },
+    'inner_slotted_disk': {
+        'num': '2',
+        'description': 'Flat, circular disks with a central hole and a wide slot cut through the diameter. These disks are interlocked perpendicularly, forming a cross-like structure. The slots allow them to slide into each other and rotate slightly around the central axis.'
+    },
+    'central_connecting_rod': {
+        'num': '2',
+        'description': 'Straight cylindrical rods that run parallel to each other, connecting the two end caps. They pass through the slotted disks, providing structural support and alignment. The rods are fixed into the end caps.'
+    },
+    'locking_pin': {
+        'num': '1',
+        'description': 'A short cylindrical pin that passes through the center of the interlocked slotted disks. It holds the disks in place and allows limited rotational movement. The pin is visible from the side and is aligned with the central axis.'
+    },
+    'fastening_screw': {
+        'num': '2',
+        'description': 'Small screws inserted into the holes on the outer cylindrical end caps. They are used to secure the end caps to the connecting rods or to clamp the assembly together.'
+    }
+}
+            modify component list:
+            component_list = {
+    'outer_cylindrical_end_cap': {
+        'num': '2',
+        'description': 'A solid cylindrical cap with a flat face and a central slot running across the diameter. Each cap has two small circular holes near the edge, likely for fastening screws. The inner side is recessed to accommodate the slotted disks and rods.'
+    },
+    'inner_slotted_disk': {
+        'num': '2',
+        'description': 'Flat, circular disks with a central hole and a wide slot cut through the diameter. These disks are interlocked perpendicularly, forming a cross-like structure. The slots allow them to slide into each other and rotate slightly around the central axis.'
+    },
+    'central_connecting_rod': {
+        'num': '2',
+        'description': 'Straight cylindrical rods that run parallel to each other, connecting the two end caps. They pass through the slotted disks, providing structural support and alignment. The rods are fixed into the end caps.'
+    },
+    'locking_pin': {
+        'num': '1',
+        'description': 'A short cylindrical pin that passes through the center of the interlocked slotted disks. It holds the disks in place and allows limited rotational movement. The pin is visible from the side and is aligned with the central axis.'
+    },
+    'fastening_screw': {
+        'num': '4',
+        'description': 'Small screws inserted into the holes on the outer cylindrical end caps. They are used to secure the end caps to the connecting rods or to clamp the assembly together.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['outer_cylindrical_end_cap_1', 'fastening_screw_1', 'fastening_screw_2'],
+        'description': 'One outer cylindrical end cap is positioned at the topmost layer, with two fastening screws inserted into its holes to secure it to the connecting rods.'
+    },
+    'layer_2': {
+        'involved_components': ['central_connecting_rod_1', 'central_connecting_rod_2'],
+        'description': 'Two parallel central connecting rods extend from the top end cap downward, providing structural support and alignment for the internal components.'
+    },
+    'layer_3': {
+        'involved_components': ['inner_slotted_disk_1', 'inner_slotted_disk_2', 'locking_pin'],
+        'description': 'Two inner slotted disks are interlocked perpendicularly at the center of the structure, forming a cross. A locking pin passes through their center to hold them in place and allow limited rotation.'
+    },
+    'layer_4': {
+        'involved_components': ['central_connecting_rod_1', 'central_connecting_rod_2'],
+        'description': 'The connecting rods continue through the lower half of the structure, maintaining alignment and support.'
+    },
+    'layer_5': {
+        'involved_components': ['outer_cylindrical_end_cap_2', 'fastening_screw_3', 'fastening_screw_4'],
+        'description': 'The second outer cylindrical end cap is located at the bottommost layer, with two fastening screws securing it to the connecting rods, mirroring the top layer.'
+    }
+}
+        
