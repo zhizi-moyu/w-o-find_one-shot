@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'flexible_shaft_coupling': {
+        'num': '1',
+        'description': 'A cylindrical mechanical component designed to connect two rotating shafts. It features multiple precision-cut slots and clamping screw holes for flexibility and secure attachment.'
+    }
+}
+            modify component list:
+            component_list = {
+    'flexible_shaft_coupling': {
+        'num': '1',
+        'description': 'A cylindrical mechanical component designed to connect two rotating shafts. It features multiple precision-cut slots and clamping screw holes for flexibility and secure attachment.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['flexible_shaft_coupling'],
+        'description': 'This component is located in this layer alone and spans the entire vertical structure. It is a single cylindrical coupling with precision-cut slots and clamping screw holes, designed to connect two rotating shafts.'
+    }
+}
+        
