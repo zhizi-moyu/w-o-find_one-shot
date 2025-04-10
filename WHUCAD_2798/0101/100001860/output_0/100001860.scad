@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 $fn = 100; // smoothness
 
@@ -75,5 +75,5 @@ module assembly() {
 }
 
 assembly();
-```
+
 
