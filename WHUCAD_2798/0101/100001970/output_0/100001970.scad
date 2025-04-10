@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 outer_diameter = 60;
 outer_height = 60;
@@ -32,5 +32,5 @@ union() {
     large_outer_cylinder();
     inner_inserted_cylinder();
 }
-```
+
 
