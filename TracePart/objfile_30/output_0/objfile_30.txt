@@ -1,0 +1,78 @@
+
+
+            component_list = {
+    'central_cylindrical_body': {
+        'num': '1',
+        'description': 'A solid cylindrical core that forms the main structural body of the assembly. It has a smooth surface and serves as the base onto which other components are mounted. The body is uniform in diameter and connects the front and rear face plates.'
+    },
+    'helical_ribbed_sleeve': {
+        'num': '1',
+        'description': 'A cylindrical sleeve that wraps around the central body. It features multiple evenly spaced helical ribs or fins that run circumferentially around the sleeve. These ribs likely serve for grip, heat dissipation, or structural reinforcement. The sleeve is slightly raised from the central body and appears to be a separate, slide-on component.'
+    },
+    'front_face_plate_with_lugs': {
+        'num': '1',
+        'description': 'A circular end cap mounted on the front of the cylindrical body. It features three evenly spaced protruding lugs or tabs arranged radially around a central hole. These lugs are likely used for locking or alignment purposes. The face plate is flush with the body and has a central circular opening.'
+    },
+    'rear_face_plate_with_socket': {
+        'num': '1',
+        'description': 'A circular end cap on the rear side of the cylindrical body. It has a central socket or recessed hole, possibly for a shaft or fastener. Around the socket are three hexagonal bolt heads arranged in a triangular pattern. The plate is slightly recessed and appears to be fastened to the central body.'
+    },
+    'internal_central_shaft': {
+        'num': '1',
+        'description': 'A cylindrical shaft that runs through the center of the body, visible through the central holes in both face plates. It may serve as a rotational axis or a conduit for mechanical or electrical transmission. The shaft is aligned concentrically with the body and is likely fixed or rotatable.'
+    },
+    'locking_lugs': {
+        'num': '3',
+        'description': 'Three identical protruding lugs located on the front face plate. Each lug is wedge-shaped and extends radially outward from the central hole. They are likely used for locking the component into another assembly or for rotational alignment.'
+    },
+    'hexagonal_bolts': {
+        'num': '3',
+        'description': 'Three identical hexagonal bolt heads located on the rear face plate. They are arranged in a triangular pattern around the central socket. These bolts likely secure the rear face plate to the central body or hold internal components in place.'
+    }
+}
+            modify component list:
+            component_list = {
+    'central_cylindrical_body': {
+        'num': '1',
+        'description': 'A solid cylindrical core that forms the main structural body of the assembly. It has a smooth surface and serves as the base onto which other components are mounted. The body is uniform in diameter and connects the front and rear face plates.'
+    },
+    'helical_ribbed_sleeve': {
+        'num': '1',
+        'description': 'A cylindrical sleeve that wraps around the central body. It features multiple evenly spaced helical ribs or fins that run circumferentially around the sleeve. These ribs likely serve for grip, heat dissipation, or structural reinforcement. The sleeve is slightly raised from the central body and appears to be a separate, slide-on component.'
+    },
+    'front_face_plate_with_lugs': {
+        'num': '1',
+        'description': 'A circular end cap mounted on the front of the cylindrical body. It features three evenly spaced protruding lugs or tabs arranged radially around a central hole. These lugs are likely used for locking or alignment purposes. The face plate is flush with the body and has a central circular opening.'
+    },
+    'rear_face_plate_with_socket': {
+        'num': '1',
+        'description': 'A circular end cap on the rear side of the cylindrical body. It has a central socket or recessed hole, possibly for a shaft or fastener. Around the socket are three hexagonal bolt heads arranged in a triangular pattern. The plate is slightly recessed and appears to be fastened to the central body.'
+    },
+    'locking_lugs': {
+        'num': '3',
+        'description': 'Three identical protruding lugs located on the front face plate. Each lug is wedge-shaped and extends radially outward from the central hole. They are likely used for locking the component into another assembly or for rotational alignment.'
+    },
+    'hexagonal_bolts': {
+        'num': '3',
+        'description': 'Three identical hexagonal bolt heads located on the rear face plate. They are arranged in a triangular pattern around the central socket. These bolts likely secure the rear face plate to the central body or hold internal components in place.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['front_face_plate_with_lugs', 'locking_lugs'],
+        'description': 'The front face plate is positioned at the front end of the assembly. The three locking lugs are radially arranged on this plate, protruding outward for alignment or locking purposes.'
+    },
+    'layer_2': {
+        'involved_components': ['helical_ribbed_sleeve'],
+        'description': 'The helical ribbed sleeve wraps around the central cylindrical body and is located just behind the front face plate. It features evenly spaced helical ribs for grip or structural reinforcement.'
+    },
+    'layer_3': {
+        'involved_components': ['central_cylindrical_body'],
+        'description': 'The central cylindrical body runs through the entire length of the assembly, serving as the main structural core onto which other components are mounted.'
+    },
+    'layer_4': {
+        'involved_components': ['rear_face_plate_with_socket', 'hexagonal_bolts'],
+        'description': 'The rear face plate is mounted at the back end of the central body. It features a central socket and is secured with three hexagonal bolts arranged in a triangular pattern.'
+    }
+}
+        
