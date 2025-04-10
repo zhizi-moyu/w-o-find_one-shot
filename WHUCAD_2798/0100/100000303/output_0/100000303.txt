@@ -1,0 +1,50 @@
+
+
+            component_list = {
+    'Base Frame': {
+        'num': '1',
+        'description': 'A rectangular, flat structural frame with a large central cutout. The frame has two extended flanges on the shorter sides, each with a slight curvature. The edges are reinforced with a ribbed design for structural integrity. The frame serves as the foundational support for the entire assembly.'
+    },
+    'Triangular Support Bracket': {
+        'num': '2',
+        'description': 'Two identical triangular brackets, each with a right-angle triangle profile. The hypotenuse is reinforced with a diagonal rib, and the vertical face has a small circular hole near the top, likely for mounting or alignment. These brackets are mounted symmetrically on either side of the base frame, providing vertical support.'
+    },
+    'Angled Side Panel': {
+        'num': '2',
+        'description': 'Two sloped side panels with a trapezoidal profile. Each panel is mounted at an angle, forming a ramp-like structure. The outer surface is smooth, while the inner surface has a recessed channel that aligns with the base frame. These panels likely serve as guides or protective covers.'
+    },
+    'Central Mounting Plate': {
+        'num': '1',
+        'description': 'A centrally located rectangular plate with a square cutout in the middle. The plate is slightly elevated from the base frame and is supported by the triangular brackets. It has small notches and alignment tabs on the edges, suggesting it is designed to hold or interface with another component.'
+    }
+}
+            modify component list:
+            component_list = {
+    'Base Frame': {
+        'num': '1',
+        'description': 'A rectangular, flat structural frame with a large central cutout. The frame has two extended flanges on the shorter sides, each with a slight curvature. The edges are reinforced with a ribbed design for structural integrity. The frame serves as the foundational support for the entire assembly.'
+    },
+    'Triangular Support Bracket': {
+        'num': '2',
+        'description': 'Two identical triangular brackets, each with a right-angle triangle profile. The hypotenuse is reinforced with a diagonal rib, and the vertical face has a small circular hole near the top, likely for mounting or alignment. These brackets are mounted symmetrically on either side of the base frame, providing vertical support.'
+    },
+    'Angled Side Panel': {
+        'num': '2',
+        'description': 'Two sloped side panels with a trapezoidal profile. Each panel is mounted at an angle, forming a ramp-like structure. The outer surface is smooth, while the inner surface has a recessed channel that aligns with the base frame. These panels likely serve as guides or protective covers.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['Angled Side Panel'],
+        'description': 'The two angled side panels are mounted at the topmost layer, sloping downward and outward. They form a ramp-like structure and serve as protective or guiding covers.'
+    },
+    'layer_2': {
+        'involved_components': ['Triangular Support Bracket'],
+        'description': 'The two triangular support brackets are positioned beneath the angled side panels. They are mounted vertically on either side of the base frame, providing structural support.'
+    },
+    'layer_3': {
+        'involved_components': ['Base Frame'],
+        'description': 'The base frame is the bottommost component and serves as the foundational support for the entire assembly. All other components are mounted on or above it.'
+    }
+}
+        
