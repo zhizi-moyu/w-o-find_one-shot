@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 fork_thickness = 5;
 fork_length = 30;
@@ -71,5 +71,5 @@ module assembly() {
 }
 
 assembly();
-```
+
 
